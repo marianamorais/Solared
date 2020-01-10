@@ -1,0 +1,40 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: sans-serif;
+}
+
+header {
+ margin-top: 70px;
+}
+
+h1 {
+ color: #df8b2b;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+ font-size: 17px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+ margin-bottom: 30px;
+}
+.image1 {
+ margin-bottom: 20px;
+ width: 300px;
+}
+
+.image2 {
+ margin-bottom: 20px;
+ width: 300px;
+}
