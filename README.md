@@ -1,1 +1,1 @@
-# DigitalInnovationOne
+# Solared ☀️
