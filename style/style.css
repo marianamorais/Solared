@@ -1,40 +1,69 @@
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
- font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 header {
- margin-top: 70px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0px;
+    background: white;
 }
 
-h1 {
- color: #df8b2b;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+nav {
+    min-height: 10vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-h2 {
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+header nav ul {
+    font-size: 1.5rem;
+    flex: 1;
 }
 
-p {
- font-size: 17px;
- font-family: Arial, Helvetica, sans-serif;
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
-footer {
- margin-bottom: 30px;
-}
-.image1 {
- margin-bottom: 20px;
- width: 300px;
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.image2 {
- margin-bottom: 20px;
- width: 300px;
+section h2 {
+    font-size: 5rem;
+    color: white;
 }
+
+.servicos {
+    background: linear-gradient(to right top, #F2994A, #F2C94C);
+}
+
+.clientes h2 {
+    color: black;
+}
+
+.parceiros {
+    background: linear-gradient(to right top, #6190E8, #A7BFE8);
+}
+
+.time h2 {
+    color: black;
+}
+
+.contato {
+    background: linear-gradient(to right top, #4e54c8, #8f94fb);
+}
+
