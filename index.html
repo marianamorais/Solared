@@ -14,19 +14,36 @@
 
 <body>
   <header>
-    <img class="logo" src="./img/solared.png" alt="Solared" width="200px">
+    <h2>BLUEHEART</h2>
     <nav>
       <ul class="nav-links">
         <li><a href="#">Serviços</a></li>
         <li><a href="#">Clientes</a></li>
         <li><a href="#">Parceiros</a></li>
         <li><a href="#">Time</a></li>
-      </ul>
-    </nav>
-    <a class="contato" href="#"><button>Contato</button></a>
+      </ul> 
+    </nav> 
+
+    <a href="google.com" class="botao1">Contato
+      <a class="botao2"></a>
+    </a>
+
+    <!-- <a class="botao-contato" href="#">Contato</a> -->
+    <p onclick="openNav()" class="menu cta">Menu</p>
   </header>
 
-  <main>
+  <div id="mobile-menu" class="overlay">
+    <a class="close" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">Serviços</a>
+      <a href="#">Clientes</a>
+      <a href="#">Parceiros</a>
+      <a href="#">Time</a>
+      <a href="#">Contato</a>
+    </div>
+  </div>
+
+  <!-- <main>
     <section data-index="0" class="servicos">
       <h2>SERVIÇOS</h2>
       <p>Desenvolvimento de sites e apps.</p>
@@ -89,13 +106,14 @@
         <p><a href="tel:9999999999">(99)9999-9999</a></p>
       </div>
     </section>
-  </main>
+  </main> -->
 
   <footer>
     <p>Desenvolvido por Mariana Morais</p>
   </footer>
 
-  <script src="./app.js"></script>
+  <script src="./js/app.js"></script>
+  <script type="text/javascript" src="./js/navbar.js"></script>
 </body>
 
 </html>

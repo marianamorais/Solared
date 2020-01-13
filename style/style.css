@@ -4,9 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #24252a;
+    background-color: #000000;
 }
-
 
 section {
     min-height: 100vh;
@@ -36,6 +35,3 @@ section h2 {
     color: black;
 }
 
-.contato {
-    background: linear-gradient(to right top, #4e54c8, #8f94fb);
-}
