@@ -1,12 +1,11 @@
-window.onscroll = function () {
- scrollFunction()
-};
+window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
- if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-   document.getElementById("navbar").style.padding = "1px 57px";
- } else {
-   document.getElementById("navbar").style.padding = "8px 57px";
-   document.getElementById("logo").style.fontSize = "35px";
- }
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "15px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "25px 61px";
+    document.getElementById("logo").style.fontSize = "25px";
+  }
 }

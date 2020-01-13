@@ -2,29 +2,46 @@ header {
  display: flex;
  justify-content: space-between;
  align-items: center;
- padding: 14px 10%;
- background-color: #000000;
+background-color: #ffffff;
 }
 
-header h2 {
- color: #2c51c9;
+#navbar {
+    overflow: hidden;
+    padding: 20px 110px;
+    transition: 0.4s;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    position: fixed;
 }
 
-.nav-links a,
-.overlay-content a {
- font-family: "Montserrat" sans-serif;
- font-weight: 500;
- color: #edeef1;
- text-decoration: none;
+#navbar a {
+    color: #2e2e2e;
+    float: right;
+    text-align: center;
+    text-decoration: none;
 }
 
+#navbar #logo {
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.4s;
+    color: #3757c2;
+    cursor: pointer;
+    float: left;
+}
+
+#navbar li a:hover {
+    color: #338aff;
+}
 .nav-links {
+color: #272727;
  list-style: none;
  display: flex;
 }
 
 .nav-links li {
- padding: 20px 30px;
+ padding: 10px 20px;
 }
 
 .nav-links li a {
@@ -33,11 +50,6 @@ header h2 {
 
 .nav-links li a:hover {
  color: rgb(154, 188, 250);
-}
-
-.logo {
- cursor: pointer;
- float: left;
 }
 
 .nav-links a {
@@ -59,6 +71,10 @@ header h2 {
  animation: anime 16s linear infinite;
  text-decoration: none;
  font-family: sans-serif;
+}
+
+.botao1:hover {
+    color: #ffffff;
 }
 
 .botao2 {
