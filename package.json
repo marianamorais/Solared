@@ -1,10 +1,10 @@
 {
   "name": "solared",
   "version": "1.0.0",
-  "description": "",
+  "description": "A website",
   "main": "index.js",
   "dependencies": {
-    "gsap": "^3.0.5"
+    "swup": "^2.0.8"
   },
   "devDependencies": {},
   "scripts": {
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marianamorais/Solared.git"
+    "url": "git+https://github.com/marianamorais/DigitalInnovationOne.git"
   },
-  "author": "",
+  "author": "Mariana Morais",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marianamorais/Solared/issues"
+    "url": "https://github.com/marianamorais/DigitalInnovationOne/issues"
   },
-  "homepage": "https://github.com/marianamorais/Solared#readme"
+  "homepage": "https://github.com/marianamorais/DigitalInnovationOne#readme"
 }

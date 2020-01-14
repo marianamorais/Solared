@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 
 * {
@@ -6,12 +7,61 @@
     box-sizing: border-box;
 }
 
+.transition-fade {
+    opacity: 1;
+    transition: 500ms;
+    transform: translateX(0);
+    transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+    opacity: 1;
+    transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+    opacity: 0;
+}
+
+.home,
+.about {
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+   }
+   
+   .home-content,
+   .about-content {
+    height: 111%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+
+   .home-content img {
+    height: 70%;
+   }
+
+   .home {
+    background-color: black;
+   }
+
+   .home-presentation h1{
+       color: white;
+       font-size: 50px;
+       margin: 30px 0px;
+   }
+
+   .home-presentation p {
+       color: white;
+       font-size: 20px;
+   }
+
 body {
     background-color: #000;
 }
+
 section {
-    min-height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
