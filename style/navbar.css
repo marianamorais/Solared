@@ -13,10 +13,11 @@ background-color: #ffffff;
     top: 0;
     z-index: 99;
     position: fixed;
+    background-color: #000;
 }
 
 #navbar a {
-    color: #2e2e2e;
+    color: #e0e0e0;
     float: right;
     text-align: center;
     text-decoration: none;
@@ -26,13 +27,13 @@ background-color: #ffffff;
     font-size: 25px;
     font-weight: bold;
     transition: 0.4s;
-    color: #3757c2;
+    color: #ff8f5b;
     cursor: pointer;
     float: left;
 }
 
 #navbar li a:hover {
-    color: #338aff;
+    color: #ff9633;
 }
 .nav-links {
 color: #272727;
@@ -49,7 +50,7 @@ color: #272727;
 }
 
 .nav-links li a:hover {
- color: rgb(154, 188, 250);
+ color: rgb(96, 190, 228);
 }
 
 .nav-links a {
@@ -58,14 +59,14 @@ color: #272727;
 
 .botao1,
 .botao2 {
- width: 201px;
+ width: 145px;
  height: 40px;
- font-size: 22px;
+ font-size: 20px;
  text-align: center;
  line-height: 42px;
  color: rgba(255, 255, 255, 0.9);
  border-radius: 50px;
- background: linear-gradient(-45deg, #b210d3, #3dffd5, #338aff, #4f18e7);
+ background: linear-gradient(-45deg, #f55322, #f3b238, #ae59f3, #ec5050);
  background-size: 600%;
  -webkit-animation: anime 16s linear infinite;
  animation: anime 16s linear infinite;
