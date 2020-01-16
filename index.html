@@ -5,22 +5,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Solared</title>
+  <title>SOLARED</title>
   <meta name="description" content="">
 
   <script src="./node_modules/swup/dist/swup.min.js"></script>
   <script src="./js/index.js"></script>
 
-  <link rel="stylesheet" href="./style/style.scss" />
   <link rel="stylesheet" href="./style/style.css" />
   <link rel="stylesheet" href="./style/navbar.css" />
+  <link rel="stylesheet" href="./style/footer.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header id="navbar">
-    <h2 id="logo">SOLARED</h2>
-    <nav>
+    <nav id="navbar">
+      <h2 id="logo">SOLARED</h2>
       <ul class="nav-links">
         <li><a class="nav-list" href="./index.html">Início</a></li>
         <li><a class="nav-list" href="./about.html">Sobre nós</a></li>
@@ -30,8 +29,8 @@
       </ul> 
     </nav> 
     <p onclick="openNav()" class="menu cta">Menu</p>
-  </header>
-
+  
+    <!-- Mobile -->
   <div id="mobile-menu" class="overlay">
     <a class="close" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
@@ -54,8 +53,90 @@
   </main>
 
   
-  <footer>
-    <p>Desenvolvido por Mariana Morais</p>
+  <footer class="footer">
+    <div class="footer-wrapper">
+      <div class="footer-left">
+        <div class="footer-about">
+                <h3>SOLARED</h3>
+                <p>
+                Somos uma empresa especializada em
+                desenvolvimento de sites e aplicativos.
+                </p>
+                <p>
+                &copy;2020 Solared. Quase todos direitos reservados.
+                </p>
+        </div>
+      </div>
+     
+      <div class="footer-right">
+         <div class= footer-navigation">
+          <h3>Navegação</h3>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Time</a></li>
+          <hr>
+          <li><a href="#">Inclusão Digital</a></li>
+          <li><a href="#">Frameworks</a></li>
+          <li><a href="#">Vagas</a></li>
+        </div>
+        
+        <div class="footer-legal">
+          <h3>Legal</h3>
+          <li><a href="#">Termos</a></li>
+          <li><a href="#">Privacidade</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Copyright</a></li>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contato</h3>
+          <p>contato@solared.com</p>
+          <p>+55 11-90000-0000</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; Desenvolvido por Mariana Morais
+      </div>
+
+    </div>
+  </footer>
+    
+    <!-- <div class="footer-content">
+    
+      
+      <div class="footer-social">
+
+      </div>
+    
+    <div class="footer-section footer-navigation">
+      <h2>Navegação</h2>
+      <li><a href="#">Sobre nós</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Time</a></li>
+      <li><a href="#">Inclusão Digital</a></li>
+      <li><a href="#">Frameworks</a></li>
+      <li><a href="#">Vagas</a></li>
+    </div>
+
+    <div class="footer-section footer-legal">
+      <h2>Legal</h2>
+      <li><a href="#">Termos</a></li>
+      <li><a href="#">Privacidade</a></li>
+      <li><a href="#">Cookies</a></li>
+      <li><a href="#">Copyright</a></li>
+    </div>
+
+    <div class="footer-section footer-contact">
+      <h2>Contato</h2>
+      <p>contato@solared.com</p>
+      <p>+55 11-90000-0000</p>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; Desenvolvido por Mariana Morais
+    </div>
+</div> -->
   </footer>
 
 </body>
