@@ -1,28 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #000;
+* {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
 }
 
-.transition-fade {
-    opacity: 1;
-    transition: 500ms;
-    transform: translateX(0);
-    transform-origin: left;
-}
-
-html.is-animating .transition-fade {
-    opacity: 1;
-    transform: translateX(100%);
-}
-
-html.is-leaving .transition-fade {
-    opacity: 0;
+body {
+    height: 100%;
+    background-color: #000;
+    font-family: 'Dosis', sans-serif;
 }
 
 .home,
