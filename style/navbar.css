@@ -60,3 +60,35 @@
 li a:hover {
     color: #ffcb39;
 }
+
+
+@media screen and (max-width: 768px) {
+    .line {
+        width: 30px;
+        height: 3px;
+        background: #ffffff;
+        margin: 5px;
+    } 
+
+    nav {
+        position: relative;
+    }
+        
+    .hamburger {
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+    }
+
+    .navbar-links {
+        position: fixed;
+        background: #000000;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(100px);
+    }
+}
+
