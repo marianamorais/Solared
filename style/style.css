@@ -52,6 +52,62 @@ main h3 {
     color: white;
 }
 
+.section-1 {
+    margin: 2rem 11rem;
+}
+
+.section-1 .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 h1 {
+    font-size: 4rem;
+    color: var(--secondary-color);
+}
+
+.section-1 p {
+    color: var(--secondary-color);
+    margin: 1rem 0;
+}
+
+/* Botao Contato*/
+.btn-contact {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    letter-spacing: 0.30em;
+    margin-top: 4%;
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+}
+
+.btn-contact{
+    box-shadow: inset 0 0 0.8em rgba(255, 255, 255, 0.3), 0 0 0.8em rgba(255, 255, 255, 0.3);
+    border: #fff solid 1px;
+    border-radius: 35px;
+}
+
+.btn-contact:hover {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+    box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.3), 0 0 1.2em rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+
 .home-content,
 .about-content {
     display: flex;
@@ -91,18 +147,6 @@ main h3 {
 
 /* Botao Contato*/
 
-.fuller-button {
-    color: white;
-    background: none;
-    border-radius: 0;
-    padding: 1em 3em;
-    letter-spacing: 0.35em;
-    font-size: 1em;
-    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
-    margin: 1em;
-    width: fit-content;
-    margin-top: 6%;
-  }
 
   .fuller-button.white {
     box-shadow: inset 0 0 0.8em rgba(255, 255, 255, 0.3), 0 0 0.8em rgba(255, 255, 255, 0.3);
