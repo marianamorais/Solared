@@ -20,10 +20,9 @@ body {
 
 /* -- Icon Bar -- */
 .icon-bar {
-    position: fixed;
-    top: 30%;
+    position: absolute;
+    top: 33%;
     z-index: 10000;
-    border-radius: 0px 30px 50px 0px;
   }
 
   .icon-bar a {
@@ -87,19 +86,9 @@ img {
 }
 
 main {
-    height: 95vh;
-    justify-content: center;
-    align-items: center;
-}
-
-main h1 {
-    font-size: 50px;
-    color: white;
-}
-
-main h3 {
-    font-size: 20px;
-    color: white;
+    margin: 0 auto;
+    padding: 30px 20px;
+    min-height: calc(100vh -211px - 58px);
 }
 
 /* -- Sections -- */
@@ -120,6 +109,7 @@ main h3 {
 .section-1 h1 {
     font-size: 4rem;
     color: var(--secondary-color);
+    text-transform: uppercase;
 }
 
 .section-1 p {
@@ -193,6 +183,8 @@ main h3 {
 }
 
 
+
+
 /* -- Cards -- */
 .row {
     width: 100%;
@@ -242,6 +234,216 @@ main h3 {
 .section-2 .fa-chevron-right {
     margin-left: 4%;
     color: white;
+}
+
+
+/* -- Section 3 -- */
+.section-3 {
+    margin: -11rem 12rem;
+}
+
+.section-3 .inclusion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3 h1 {
+    font-size: 4rem;
+    color: var(--secondary-color);
+    letter-spacing: 0.2em;
+}
+
+.section-3 p {
+    color: var(--secondary-color);
+    margin: 3rem 0;
+}
+
+.section-3 hr {
+    position: absolute;
+    margin-top: 0.5%;
+    border: 1px;
+    border-bottom: 4px solid #c83eff;
+    box-shadow: inset 0 0 0 rgba(143, 60, 238, 0.3), 0 0 1.2em rgba(174, 33, 209, 0.5);
+    width: 19em;
+    animation: separator-width 1s ease-out forwards;
+    border-radius: 25px;
+    transition: border-bottom 0.2s, box-shadow 0.3s, color 0.3s;
+}
+
+.section-3 hr:hover {
+    border-bottom: 4px solid #ffae51;
+    box-shadow: inset 0 0 0 rgba(253, 172, 67, 0.3), 0 0 1.2em rgba(223, 96, 38, 0.5);
+}
+
+.section-3 img {
+    width: 77%;
+    margin: 22%;
+}
+
+
+.btn-inclusion {
+    position: absolute;
+    display: inline-block;
+    color: #ffffff;
+    padding: 0.3rem 1.5rem;
+    border: 2px solid #c83eff;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 9% 10% 10% 10% / 51% 48% 52% 0% ;
+    letter-spacing: 0.30em;
+    margin-top: -2%;
+    transition: padding 0.2s, box-shadow 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.btn-inclusion:hover {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: #c83eff;
+    padding: 0.4rem 1.5rem;
+    box-shadow: inset 0 0 0 rgba(252, 88, 252, 0.3), 0 0 1.2em rgba(194, 44, 207, 0.5);
+}
+
+/* -- Section 4 -- */
+.section-4 {
+    margin: 13rem 12rem;
+}
+
+.section-4 .frameworks{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4 h1 {
+    font-size: 4rem;
+    color: var(--secondary-color);
+    letter-spacing: 0.2em;
+    text-align: right;
+}
+
+.section-4 p {
+    color: var(--secondary-color);
+    margin: 3rem 0;
+    text-align: right;
+}
+
+.section-4 hr {
+    position: absolute;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    border: 1px;
+    border-bottom: 4px solid #ffae51;
+    box-shadow: inset 0 0 0 rgba(255, 176, 56, 0.3), 0 0 1.2em rgba(209, 153, 33, 0.5);
+    width: 30em;
+    animation: separator-width 1s ease-out forwards;
+    border-radius: 25px;
+    transition: border-bottom 0.2s, box-shadow 0.3s, color 0.3s;
+}
+
+hr:hover {
+    border-bottom: 4px solid #c83eff;
+    box-shadow: inset 0 0 0 rgba(253, 172, 67, 0.3), 0 0 1.2em rgba(223, 96, 38, 0.5);
+}
+
+.section-4 img {
+    width: 100%;
+    margin: -14%;
+}
+
+.btn-frameworks {
+    position: absolute;
+    display: inline-block;
+    color: #ffffff;
+    padding: 0.3rem 1.5rem;
+    border: 2px solid #ffae51;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 9% 10% 10% 10% / 51% 48% 52% 0% ;
+    letter-spacing: 0.30em;
+    margin-top: -2%;
+    transition: padding 0.2s, box-shadow 0.3s, color 0.3s;
+    margin-left: 23%;
+    font-weight: bold;
+}
+
+.btn-frameworks:hover {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: #ffae51;
+    padding: 0.4rem 1.5rem;
+    box-shadow: inset 0 0 0 rgba(255, 148, 60, 0.3), 0 0 1.2em rgba(233, 148, 51, 0.5);
+}
+
+/* -- Section 5 -- */
+.section-5 {
+    margin: -12rem 12rem;
+}
+
+.section-5 .job{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-5 h1 {
+    font-size: 4rem;
+    color: var(--secondary-color);
+    letter-spacing: 0.2em;
+}
+
+.section-5 p {
+    color: var(--secondary-color);
+    margin: 3rem 0;
+}
+
+.section-5 hr {
+    position: absolute;
+    margin-top: 0.5%;
+    border: 1px;
+    border-bottom: 4px solid #64FFDA;
+    box-shadow: inset 0 0 0 rgba(100, 255, 219, 0.39), 0 0 1.2em rgba(100, 255, 219, 0.342);
+    width: 15em;
+    animation: separator-width 1s ease-out forwards;
+    border-radius: 25px;
+    transition: border-bottom 0.2s, box-shadow 0.3s, color 0.3s;
+}
+
+.section-5 hr:hover {
+    border-bottom: 4px solid #ffae51;
+    box-shadow: inset 0 0 0 rgba(253, 172, 67, 0.3), 0 0 1.2em rgba(223, 96, 38, 0.5);
+}
+
+.section-5 img {
+    width: 93%;
+    margin: 22%;
+}
+
+.btn-jobs {
+    position: absolute;
+    display: inline-block;
+    color: #ffffff;
+    padding: 0.3rem 1.5rem;
+    border: 2px solid #64FFDA;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 9% 10% 10% 10% / 51% 48% 52% 0% ;
+    letter-spacing: 0.30em;
+    margin-top: -2%;
+    transition: padding 0.2s, box-shadow 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.btn-jobs:hover {
+    color: #000000;;
+    background-color: #64FFDA;
+    padding: 0.4rem 1.5rem;
+    box-shadow: inset 0 0 0 rgba(100, 255, 219, 0.479), 0 0 1.2em rgba(100, 255, 219, 0.425);
 }
 
 @media screen and (max-width: 600px) {
