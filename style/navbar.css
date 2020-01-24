@@ -1,62 +1,55 @@
 nav {
-    font-size: 1.2rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
+    padding-top: 1rem;
 }
 
-    nav .navbar-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    nav .logo {
-        font-size: 1.5em;
-        color: var(--primary-color);
-        text-transform: uppercase;
-        letter-spacing: 0.2em;
-        cursor: pointer;
-        
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -ms-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
-    }
-
-    nav .logo:hover {
-        color: rgb(255, 94, 0);
-    }
-
-    nav .navbar-links {
-        justify-self: flex-end;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    nav .navbar-links a {
-        padding: 0 1rem;
-        text-transform: uppercase;
-        font-size: 0.8em;
-
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -ms-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
-    }
-
-    nav .navbar-links a:hover{
-        color: var(--primary-color);
-    }
-
-    nav .navbar-links a:visited{
-        color: var(--purple-color);
-        }
-
 .navbar-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     max-width: 1220px;
     margin: auto;
     overflow: hidden;
-    padding: 0 2rem;
 }
+
+.logo {
+    font-size: 1.5em;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+        
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.logo:hover {
+    color: rgb(255, 94, 0);
+}
+
+.navbar-links {
+    justify-self: flex-end;
+    display: flex; 
+    font-size: 0.9em;
+}
+
+.navbar-links a {
+    padding: 0 1rem;
+    text-transform: uppercase;
+
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.navbar-links a:hover{
+    color: var(--primary-color);
+}
+
+.navbar-links a:visited{
+    color: var(--purple-color);
+}
+
