@@ -344,7 +344,7 @@ hr:hover {
     border: 2px solid #ffae51;
     cursor: pointer;
     font-size: 1.1rem;
-    border-radius: 9% 10% 10% 10% / 51% 48% 52% 0% ;
+    border-radius: 20% 27% 0% 19% / 100% 100% 62% 99%   ;
     letter-spacing: 0.30em;
     margin-top: -2%;
     transition: padding 0.2s, box-shadow 0.3s, color 0.3s;
