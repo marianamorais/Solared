@@ -15,7 +15,7 @@
 body {
     height: 100%;
     font-family: 'Dosis', sans-serif;
-    font-size: 1.1rem;  
+    font-size: 1.4rem;  
     background-color: #252525;
 }
 
@@ -427,8 +427,21 @@ hr:hover {
     box-shadow: inset 0 0 0 rgba(100, 255, 219, 0.479), 0 0 1.2em rgba(100, 255, 219, 0.425);
 }
 
+/* Media query */
+
 @media screen and (max-width: 600px) {
     .section-2 {
         padding: 0em 1em;
+    }
+}
+
+
+@media screen and (max-width: 909px) {
+    .section-1 h1 {
+        font-size: 2.8rem;
+    }
+
+    .section-1 p {
+        font-size: 0.7em;
     }
 }
