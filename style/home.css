@@ -1,0 +1,94 @@
+.home .container{
+ margin: 6rem 11rem;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-gap: 3rem;
+ align-items: center;
+ justify-content: center;
+}
+
+.home h1 {
+ font-size: 4rem;
+ text-transform: uppercase;
+ color: var(--secondary-color);
+}
+
+.home p {
+ margin: 1rem 0; 
+ color: var(--secondary-color);
+}
+
+.btn-contact {
+ display: inline-block;
+ color: #ffffff;
+ padding: 0.8rem 1.5rem;
+ border: none;
+ cursor: pointer;
+ font-size: 1.1rem;
+ border-radius: 50px;
+ letter-spacing: 0.30em;
+ margin-top: 4%; 
+ background-color: var(--primary-color);
+ transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+}
+
+.btn-contact{
+ box-shadow: inset 0 0 0.8em rgba(255, 255, 255, 0.3), 0 0 0.8em rgba(255, 255, 255, 0.3);
+ border: #fff solid 1px;
+ border-radius: 35px;
+}
+
+.btn-contact:hover {
+ color: rgba(0, 0, 0, 0.8);
+ background-color: #fff;
+ box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.3), 0 0 1.2em rgba(255, 255, 255, 0.5);
+}
+
+/* -- Home icons -- */
+
+.icon-bar {
+ position: absolute;
+ top: 33%;
+}
+
+.icon-bar a {
+ display: block;
+ padding: 20px;
+ text-align: left;
+ font-size: 20px;    
+ color: rgb(114, 114, 114);
+
+ -webkit-transition: all 0.3s ease-in;
+ -moz-transition: all 0.3s ease-in;
+ -ms-transition: all 0.3s ease-in;
+ -o-transition: all 0.3s ease-in;
+ transition: all 0.3s ease-in;
+}
+
+.icon-bar a .fa-instagram,
+.icon-bar a .fa-twitter,
+.icon-bar a .fa-behance,
+.icon-bar a .fa-linkedin-in
+{
+ -webkit-transition: all 0.3s ease-in;
+ -moz-transition: all 0.3s ease-in;
+ -ms-transition: all 0.3s ease-in;
+ -o-transition: all 0.3s ease-in;
+ transition: all 0.2s ease-in;
+}
+
+.icon-bar a .fa-instagram:hover {
+ color: rgb(216, 34, 104);
+}
+
+.icon-bar a .fa-twitter:hover {
+ color: rgb(75, 191, 245);
+}
+
+.icon-bar a .fa-behance:hover {
+ color: #053eff;
+}
+
+.icon-bar a .fa-linkedin-in:hover {
+ color: #0e76a8;
+}
