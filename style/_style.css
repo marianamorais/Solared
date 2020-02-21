@@ -14,9 +14,7 @@
 
 body {
     height: 100%;
-    font-family: 'Dosis', sans-serif;
-    font-size: 1.4rem;  
-    background-color: #252525;
+    font-family: 'Dosis', sans-serif;  
 }
 
 h1, h2, h3, h4 {

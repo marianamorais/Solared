@@ -1,0 +1,33 @@
+$colors: (
+ white: #ffffff,
+ orange: #ffa53e,
+ purple: #c83eff,
+ black: #252525
+);
+
+@function color($color-name) {
+ @return map-get($colors, $color-name)
+}
+
+$primary-font-face: 'Dosis', sans-serif; 
+
+$size-h: 100%;
+$size-w: 100%;
+
+body, html {
+ height: $size-h;
+ margin: 0;
+ font-family: $primary-font-face;
+ background-color: color(black);
+}
+
+img {
+ width: $size-w;
+}
+
+
+
+
+
+
+

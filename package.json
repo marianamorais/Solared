@@ -3,21 +3,10 @@
   "version": "1.0.0",
   "description": "A website",
   "main": "index.js",
+  "repository": "https://github.com/marianamorais/DigitalInnovationOne.git",
+  "author": "Mariana <moraismariana83@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "swup": "^2.0.8"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marianamorais/DigitalInnovationOne.git"
-  },
-  "author": "Mariana Morais",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/marianamorais/DigitalInnovationOne/issues"
-  },
-  "homepage": "https://github.com/marianamorais/DigitalInnovationOne#readme"
+    "node-sass": "^4.13.1"
+  }
 }
