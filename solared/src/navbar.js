@@ -9,7 +9,8 @@ export const Header = styled.header`
  color: rgb(255, 255, 255);
  z-index: 1;
  transition: 0.5s ease-out;
-`
+`;
+
 export const Logo = styled.h1`
  color: #ffa53e;
  font-size: 17px;
@@ -20,12 +21,12 @@ export const Logo = styled.h1`
  &:hover {
   color: rgb(255, 123, 0);
  }
-`
+`;
 
 export const HeaderNav = styled.ul`
  display: flex;
  padding: 0 7% 0 0;
-`
+`;
 
 export const NavLink = styled.li`
  padding: 5px 20px;
@@ -37,6 +38,6 @@ export const NavLink = styled.li`
  &:hover {
   color: aquamarine;
  }
-`
+`;
 
 
