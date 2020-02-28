@@ -31,12 +31,13 @@ export const HeaderNav = styled.ul`
 export const NavLink = styled.li`
  padding: 5px 20px;
  list-style: none;
- color: #000000;
+ color: #ffffff;
  cursor: pointer;
  list-style: none;
  font-size: 16px;
+ transition: all 0.3s ease-in; 
  &:hover {
-  color: aquamarine;
+  color: #ffa53e ;
  }
 `;
 

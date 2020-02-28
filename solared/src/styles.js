@@ -7,15 +7,11 @@ export const GlobalStyle = createGlobalStyle `
  }
 `;
 
-export const Html = styled.html`
+export const Container = styled.div`
  margin: 0;
  box-sizing: border-box;
  padding: 0;
  text-decoration: none; 
-`;
-
-export const Container = styled.div`
-height: 100%;
- width: 100%
- background-color: #000000
+ width: 100%;
+ height: 100%;
 `;

@@ -1,11 +1,12 @@
 import React from 'react';
 
 import { Header, Logo, HeaderNav, NavLink } from './navbar';
-import { GlobalStyle } from './styles';
+import { GlobalStyle, Container } from './styles';
 
 function App() {
   return (
     <>
+        <Container>
           <Header>
           <Logo>
             <h1>Solared</h1>
@@ -17,6 +18,7 @@ function App() {
             <NavLink href="">Jobs</NavLink>
           </HeaderNav>
         </Header> 
+        </Container>
         <GlobalStyle />
     </>
       );
